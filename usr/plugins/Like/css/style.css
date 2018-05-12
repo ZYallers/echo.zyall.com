@@ -1,0 +1,24 @@
+/* 
+    Created on : 2014-8-1, 17:57:17
+    Author     : skylzl
+*/
+.post-like{
+   display: inline-block;
+   float: left;;
+}
+.post-like .action {
+    border: 1px solid #f66;
+    border-radius: 999em;
+    color: #f66;
+    line-height: 22px;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.post-like .action .count {
+    padding-left: 5px;
+}
+
+.post-like .action :hover {
+    color: red;
+    border-color: red;
+}
